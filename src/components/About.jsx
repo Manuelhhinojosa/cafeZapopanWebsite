@@ -17,7 +17,7 @@ const About = () => {
             {ABOUT.header}
           </h2>
           <div className="mb-8 mt-1 h-2 w-36 bg-rose-300"></div>
-          <p className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl">
+          <p className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl text-justify">
             {ABOUT.content}
           </p>
         </div>
