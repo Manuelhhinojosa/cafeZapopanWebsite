@@ -19,7 +19,7 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 2 } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
 const Review = () => {
@@ -56,7 +56,7 @@ const Review = () => {
           </div>
         </motion.div>
       </motion.div>
-      <motion.div
+      <div
         initial="hidden"
         whileInView="show"
         variants={itemVariants}
@@ -64,15 +64,14 @@ const Review = () => {
         className="mt-40 flex flex-col items-center justify-center gap-2 lg:flex-row"
       >
         {custsArr.map((customer, index) => (
-          <motion.img
-            variants={itemVariants}
+          <img
             key={index}
             src={customer}
             alt="customer"
             className="h-[300px] w-[200px] rounded-br-3xl rounded-tl-3xl object-cover"
           />
         ))}
-      </motion.div>
+      </div>
     </section>
   );
 };
