@@ -6,6 +6,7 @@ import About from "./components/About";
 import Mission from "./components/Mission";
 import Menu from "./components/Menu";
 import Review from "./components/Review";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Mission />
       <Menu />
       <Review />
+      <Contact />
     </main>
   );
 };
