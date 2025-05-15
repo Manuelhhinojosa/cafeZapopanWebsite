@@ -12,6 +12,7 @@ import dish10 from "../assets/dish10.jpeg";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
+  { text: "Inicio", targetId: "hero" },
   { text: "Especialidades", targetId: "dishes" },
   { text: "Sobre Nosotros", targetId: "about" },
   { text: "Misión", targetId: "mission" },

@@ -24,7 +24,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-4 z-50 w-full flex flex-col items-center">
+    <nav
+      className="fixed top-4 z-50 w-full flex flex-col items-center"
+      id="hero"
+    >
       <div className="flex w-full items-center justify-between overflow-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
         <img src={logo} alt="logo" width={80} height={22} />
         <div className="hidden  space-x-6 lg:flex">

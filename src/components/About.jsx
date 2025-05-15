@@ -1,6 +1,7 @@
 import about from "../assets/about.jpeg";
 import React from "react";
 import { ABOUT } from "../constants";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -13,13 +14,31 @@ const About = () => {
           <img src={about} alt="aboutImage" className="rounded-3x" />
         </div>
         <div className="w-full px-2 lg:w-1/2">
-          <h2 className="text-4xl tracking-tighter lg:text-6xl">
+          <motion.h2
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 2, delay: 0.5 }}
+            className="text-4xl tracking-tighter lg:text-6xl"
+          >
             {ABOUT.header}
-          </h2>
-          <div className="mb-8 mt-1 h-2 w-36 bg-rose-300"></div>
-          <p className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl text-justify">
+          </motion.h2>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 2, delay: 0.4 }}
+            className="mb-8 mt-1 h-2 w-36 bg-rose-300"
+          ></motion.div>
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 2, delay: 0.6 }}
+            className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl text-justify"
+          >
             {ABOUT.content}
-          </p>
+          </motion.p>
         </div>
       </div>
     </section>
