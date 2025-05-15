@@ -7,6 +7,7 @@ import Mission from "./components/Mission";
 import Menu from "./components/Menu";
 import Review from "./components/Review";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Menu />
       <Review />
       <Contact />
+      <Footer />
     </main>
   );
 };
