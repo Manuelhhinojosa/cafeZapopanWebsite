@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Dishes from "./components/Dishes";
 import About from "./components/About";
 import Mission from "./components/Mission";
+import Menu from "./components/Menu";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Dishes />
       <About />
       <Mission />
+      <Menu />
     </main>
   );
 };

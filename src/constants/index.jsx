@@ -9,19 +9,15 @@ import dish8 from "../assets/dish8.jpeg";
 import dish9 from "../assets/dish9.jpeg";
 import dish10 from "../assets/dish10.jpeg";
 
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
-
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
-  { text: "About", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
-  { text: "Expertise", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
-  { text: "Contact", targetId: "contact" },
+  { text: "Especialidades", targetId: "dishes" },
+  { text: "Sobre Nosotros", targetId: "about" },
+  { text: "Misión", targetId: "mission" },
+  { text: "Menú", targetId: "menu" },
+  { text: "Reseńas", targetId: "review" },
+  { text: "Contacto", targetId: "contact" },
 ];
 
 export const DISHES = [
@@ -86,30 +82,6 @@ export const ABOUT = {
 
 export const MISSION =
   "At our restaurant, our mission is to create delicious and memorable dining experiences.";
-
-export const CUSINES = [
-  {
-    number: "01.",
-    image: italian,
-    title: "Italian",
-    description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
-  },
-  {
-    number: "02.",
-    image: japanese,
-    title: "Japanese",
-    description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
-  },
-  {
-    number: "03.",
-    image: indian,
-    title: "Indian",
-    description:
-      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
-  },
-];
 
 export const REVIEW = {
   name: "Xaviour Fernando",
