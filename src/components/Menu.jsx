@@ -1,5 +1,5 @@
 import React from "react";
-import missionImg from "../assets/mission.jpeg";
+import missionImg from "../assets/mission.jpg";
 
 const Menu = () => {
   return (
@@ -11,9 +11,9 @@ const Menu = () => {
             <img src={missionImg} alt="MenuImg" className="rounded-3xl" />
           </div>
 
-          <div className="m-5">
+          {/* <div className="m-5">
             <img src={missionImg} alt="MenuImg" className="rounded-3xl" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -24,9 +24,8 @@ const Hero = () => {
           transition={{ duration: 3 }}
           src={logo}
           alt="cafeZapopanLogo"
-          className="w-full p-4"
+          className="w-full p-4 bottom-0"
         />
-        <p className="p-4 text-lg tracking-tighter text-white">Zapopan</p>
       </div>
     </section>
   );

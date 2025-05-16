@@ -1,13 +1,13 @@
-import dish1 from "../assets/dish1.jpeg";
-import dish2 from "../assets/dish2.jpeg";
-import dish3 from "../assets/dish3.jpeg";
-import dish4 from "../assets/dish4.jpeg";
-import dish5 from "../assets/dish5.jpeg";
-import dish6 from "../assets/dish6.jpeg";
-import dish7 from "../assets/dish7.jpeg";
-import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
-import dish10 from "../assets/dish10.jpeg";
+import dish1 from "../assets/dish1.jpg";
+import dish2 from "../assets/dish2.jpg";
+import dish3 from "../assets/dish3.jpg";
+import dish4 from "../assets/dish4.jpg";
+import dish5 from "../assets/dish5.jpg";
+import dish6 from "../assets/dish6.jpg";
+import dish7 from "../assets/dish7.jpg";
+import dish8 from "../assets/dish8.jpg";
+import dish9 from "../assets/dish9.jpg";
+import dish10 from "../assets/dish10.jpg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
@@ -24,91 +24,87 @@ export const LINKS = [
 export const DISHES = [
   {
     image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
+    title: "Panini Vegano",
+    description:
+      "Pan de masa madre, pesto de almdendras, ensalada jamón sin crueldad",
   },
   {
     image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
+    title: "Bowl de Proteina `Cárnica`",
+    description:
+      "Salsicha de `puerco`, `huevos`, `tocino` acompańado de masa madre y ensalada",
   },
   {
     image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+    title: "Bowl de Avena",
+    description: "Avena, frutos de temporada, miel de maple y leche",
   },
   {
     image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
+    title: "Bowl de Fruta",
+    description: "Fruta de temporada, granola, miel",
   },
   {
     image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
+    title: "Waffles",
+    description: "Waffles de avena serivdos con fruta, miel y crema de limón",
   },
   {
     image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
+    title: "Ensalda Llena de Proteína",
+    description:
+      "Enslada de granos altos en proteina, sprouts, huevo y pan de masa madre",
   },
   {
     image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+    title: "Tostada de Agucate",
+    description:
+      "Aguacate, aceite de chile serrano, huevo al gusto, tocino y ensalada",
   },
   {
     image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
+    title: "Tostada de Aguacate Especial",
+    description:
+      "Justo como la Tostada de Aguacate, acompańada de nuestra salsa especial para chilaquiles",
   },
   {
     image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
+    title: "Baggels Recien Horneado",
+    description: "Gran variedad de baggels que puedes acompańar a tu gusto",
   },
   {
     image: dish10,
-    title: "Tiramisu",
+    title: "Pancakes de Avena",
     description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
+      "Pankes de avena acompańados de fruta de temporda, miel y crema de limón",
   },
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
+  header: "Amamos lo que hacemos",
   content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
+    "Café Zapopan es un espacio con historia y alma de barrio, ubicado en el corazón de Zapopan, Jalisco, a solo una cuadra de la Basílica y justo en frente del MAZ. Con más de 20 años de historia, este café ha sido atendido con cariño por dos generaciones: primero por la madre y ahora por la hija, quienes han mantenido viva la tradición de ofrecer un lugar cálido y auténtico. Más que un café, es un punto de encuentro para la comunidad, donde vecinos, amigos y visitantes se reúnen para convivir, compartir historias y disfrutar del ambiente acogedor que solo un lugar con raíces puede ofrecer.",
 };
 
 export const MISSION =
-  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+  "Nuestra misión es seguir siendo un espacio abierto para todas y todos, donde se fomente la convivencia y el respeto. Promovemos una forma de vida consciente, invitando a disfrutar de alimentos libres de sufrimiento animal, en armonía con el entorno y la comunidad.";
 
 export const REVIEW = {
-  name: "Xaviour Fernando",
-  profession: "Food Critic",
+  name: "CaracolilloGDL",
+  profession: "Buscador de cafés",
   content:
-    "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
+    "“Amamos este lugar porque su atención al cliente fue muy buena, estuvieron muy atentos de sus clientes todo el tiempo, además de que te sirven agua de cortesía lo que nos pareció un lindo detalle.”",
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  { key: "address", value: "Andador 20 de noviembre 109, Zapopan 45100" },
+  { key: "phone", value: "Phone: 33 3633 6137" },
+  { key: "email", value: "Email: cafezapopan@contact.com" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
-  },
-
-  {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/cafezapopan/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
   },
 ];

@@ -1,4 +1,4 @@
-import about from "../assets/about.jpeg";
+import about from "../assets/about.png";
 import React from "react";
 import { ABOUT } from "../constants";
 import { motion } from "framer-motion";
@@ -9,9 +9,9 @@ const About = () => {
       <h2 className=" mb-8 text-center text-3xl tracking-tighter lg:text-4xl">
         Quiénes somos?
       </h2>
-      <div className="flex flex-wrap">
-        <div className="w-full p-4 lg:w-1/2">
-          <img src={about} alt="aboutImage" className="rounded-3x" />
+      <div className="flex flex-wrap justify-center items-center">
+        <div className="w-full p-4 lg:w-1/2 flex justify-center items-center">
+          <img src={about} alt="aboutImage" className="rounded-3xl" />
         </div>
         <div className="w-full px-2 lg:w-1/2">
           <motion.h2
