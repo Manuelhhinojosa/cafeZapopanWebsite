@@ -1,5 +1,4 @@
 import React from "react";
-import missionImg from "../assets/mission.jpg";
 import mission from "../assets/mission.mp4";
 import { MISSION } from "../constants";
 import { motion } from "framer-motion";
@@ -20,7 +19,6 @@ const Mission = () => {
             muted
             loop
             playsInline
-            poster={missionImg}
             src={mission}
             type="video/mp4"
           ></motion.video>
