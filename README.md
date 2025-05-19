@@ -29,3 +29,7 @@ The codebase is clean and easy to maintain, with clear separation of components 
 ## 🔗 Live Site
 
 https://zapopancafe.netlify.app
+
+---
+
+Made with ❤️ by [Manuel H Hinojosa](https://manuelhinojosa.netlify.app)
