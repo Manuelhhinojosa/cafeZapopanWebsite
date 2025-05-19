@@ -1,12 +1,31 @@
-# React + Vite
+# ☕ Café Zapopan Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a custom-built website for **Café Zapopan**, a beloved neighborhood café located in the historic center of Zapopan, Jalisco, Mexico. Built using **React**, **Tailwind CSS**, and **Framer Motion**, this site highlights the essence of the café and its long-standing connection to the local community.
 
-Currently, two official plugins are available:
+## 🧾 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the front-end for Café Zapopan’s official website. It includes:
 
-## Expanding the ESLint configuration
+- A clean, responsive design that works seamlessly across all devices
+- Reusable React components for each section (About, Menu, Mission, etc.)
+- Smooth animations using Framer Motion
+- Tailwind CSS for utility-first styling
+- Organized project structure ready for future expansion (e.g., blog, booking)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Technologies & Libraries Used
+
+- React.js (with functional components)
+- Tailwind CSS for fast and consistent styling
+- Framer Motion for animation and transitions
+- Vite for blazing-fast development build tooling
+- ESLint for code quality
+- Netlify (optional) for deployment
+
+## 💼 Real Client Collaboration
+
+This project was created for a real client. All UI/UX decisions, text, and layout reflect the owner’s vision.  
+The codebase is clean and easy to maintain, with clear separation of components and consistent naming.
+
+## 🔗 Live Site
+
+https://zapopancafe.netlify.app
